@@ -30,14 +30,14 @@ class MyHomePage extends StatelessWidget {
       create: (_) => CountModel(),
       child: Scaffold(
         appBar: AppBar(
-          title: Text('counter'),
+          title: Text('カウンター'),
         ),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               const Text(
-                'You have pushed the button this many times:',
+                'ボタンを押してください:',
               ),
               Builder(builder: (context) {
                 // final model = Provider.of<CountModel>(context);
