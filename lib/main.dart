@@ -30,7 +30,7 @@ class MyHomePage extends StatelessWidget {
       create: (_) => CountModel(),
       child: Scaffold(
         appBar: AppBar(
-          title: Text('カウンター'),
+          title: Text('カウンターアプリ'),
         ),
         body: Center(
           child: Column(
